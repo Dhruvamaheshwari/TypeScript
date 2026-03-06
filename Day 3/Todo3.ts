@@ -3,11 +3,9 @@
 // variable called uppercaseText. Then convert the entire sentence to lowercase and
 // store the result in a variable cal led lowercaseText.
 
-
-
 let str : string  = "DhRuVa MaHeShWaRi"
 let uppercase : string = str.toUpperCase();
 let lowercase : string = str.toLowerCase();
 
 console.log("uppercase => " + uppercase)
-console.log("lowercase => " + lowercase)
+console.log("lowercase =>" + lowercase)

@@ -1,0 +1,22 @@
+// today topic is Boolean type and BigInt
+
+1. Boolean type => T / F
+
+// homeWork
+write a TypeScript function called isDivisibZeBy4And8 that
+takes a number as a parameter and returns true if the number is divisible by
+both 4 and 8.
+
+2. BigInt
+    a) It is a build in type that allowa you to work with number
+       that are large than the rane supported by the regular number type
+
+    b) In Js we can't read the whole number beyound 2^53
+
+    c) BigInt ka number likhe ke baad hame last me / suffix me 1 {n} add krna h for example: 122n
+
+homeWork
+let sum = bigNumber + anotherBigNumber;
+let difference = bigNumber - anotherBigNumber;
+let product = bigNumber * anotherBigNumber;
+let division = bigNumber / anotherBigNumber;
