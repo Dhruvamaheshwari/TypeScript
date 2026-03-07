@@ -1,0 +1,25 @@
+// Today Topoic ::
+
+Function Declaration :
+    -- You can declare a Function using the Function keyword , follewed by the Function name 
+        a list of parameters enclosed in parentheses and a return type
+
+Function invocation : 
+    -- to execure a Function you simply invoke it by useing its name follewed by parentheses.
+
+Function Return type :
+    -- how do you specify the return type of a Function in Ts ???
+    -- To specify the return type of a Function you can use the colon (:) follewed by
+        the desired type after the Function's parameter list.
+
+
+Q1 : Write a function called isPaZindrome that takes a string as a parameter
+    and returns true if the string is a palindrome (reads the same forwards and
+    backwards), and false otherwise.
+
+// Homework :
+    Q2 : Create a function called calculateAverage that takes an array of
+        numbers as a parameter and returns the average of those numbers.
+
+    Q3 : Write a function called findMaxValue that takes an array of numbers as
+        a parameter and returns the maximum value in the array.
