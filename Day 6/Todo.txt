@@ -1,0 +1,11 @@
+Today Topic
+
+TypeInference :
+     TypeInference in Ts refers to the ability of the Ts compiler to automatically detemine
+     and assign type to variable, expression and fucntion return values based on their usage 
+     and context in the code.
+
+homeWork :
+    Write a function calculateArea that takes the length and
+    width parameters of type number and returns their product. Infer
+    the return type of the function using type inference.
