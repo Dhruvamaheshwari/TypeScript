@@ -1,0 +1,8 @@
+Today Topic :
+
+Optional and Default parameters :
+    1. ts allows you to define Optional and Default parameters in function.
+    2. Optional parameters are denoted by appending a ? symbol after the parameter name,
+    3. Default parameter are specified by providing a Default values in the parameter decleration
+
+
