@@ -56,7 +56,7 @@ let b : number = 12; // here we are explicitly defining the type of b as number
 // type aliases
 // Intersection types 
 
-
+/**
 // interface uss object ki shakal h
 interface User{
   name: string,
@@ -70,3 +70,24 @@ function getDataOfUser(obj : User){
 }
 
 getDataOfUser({name:"dhruva",age:12,password:"1234"})
+ */
+
+// Extending interfaces
+interface User{
+  name: string,
+  age: number,
+  password:string,
+  gender?:string 
+}
+
+interface Admin extends User{
+  admin: boolean;
+}
+
+function getUserData(obj:User){
+  console.log(obj.name) // only name and age and password can be accessed here
+}
+
+function getAdminData(obj:Admin){
+  console.log(obj.admin) //  we can access admin property here as well as name and age and password
+}
