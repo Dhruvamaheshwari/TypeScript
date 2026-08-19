@@ -1,0 +1,13 @@
+// install the typescript compiler by running the following command in your terminal:
+npm i typescript -g
+
+
+// initialize a new TypeScript project by running:
+tsc --init
+
+// to watch for changes and automatically compile your TypeScript files, run:
+tsc --watch or tsc -w
+
+// Basic type
+    1. primitives: string, number, boolean, null, undefined
+
