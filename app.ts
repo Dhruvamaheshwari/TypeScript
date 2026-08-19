@@ -1,40 +1,49 @@
-/** @format */
+// /** @format */
 
-// Basic Types
+// // Basic Types
 
-// Primitve types (number , string , boolean)
-let a = 12;
+// // Primitve types (number , string , boolean)
+// let a = 12;
 
-// array
-let arr = [1, 2, 2, "name"];
+// // array
+// let arr = [1, 2, 2, "name"];
 
-// tuples
-let tuple: [string, number] = ["dhruva", 4];
+// // tuples
+// let tuple: [string, number] = ["dhruva", 4];
 
-// Enums
-enum UserRole {
-  ADMIN = "admin",
-  GUEST = "guest",
-  SUPER_ADMIN = "super_admin",
-}
+// // Enums
+// enum UserRole {
+//   ADMIN = "admin",
+//   GUEST = "guest",
+//   SUPER_ADMIN = "super_admin",
+// }
 
-// any , unknown , void , NUll , undefinded , never
-let b: any; // define the type
-b = 3;
-b = "name";
-// simple any ka mtld type script off ho jati  h
-
-
-let c: unknown;
-c = 12;
-c = "dhruva";
-
-if (typeof c == "string") c.toUpperCase(); // this is called type narrowing
+// // any , unknown , void , NUll , undefinded , never
+// let b: any; // define the type
+// b = 3;
+// b = "name";
+// // simple any ka mtld type script off ho jati  h
 
 
+// let c: unknown;
+// c = 12;
+// c = "dhruva";
 
-function adcd():void{  // jab koi fun. bano ge to usa reutn type batana pde ga like (void , boolen , number)
-    console.log('this fun. does not return any thing')
-}
+// if (typeof c == "string") c.toUpperCase(); // this is called type narrowing
+
+
+
+// function adcd():void{  // jab koi fun. bano ge to usa reutn type batana pde ga like (void , boolen , number)
+//     console.log('this fun. does not return any thing')
+// }
+
+
+// Type ingerence
+
+// understanding type inference 
+let a = 12; // type script automatically infers the type of a as number
+// type annotations
+let b : number = 12; // here we are explicitly defining the type of b as number
+
 
 
