@@ -91,3 +91,33 @@ function getUserData(obj:User){
 function getAdminData(obj:Admin){
   console.log(obj.admin) //  we can access admin property here as well as name and age and password
 }
+
+
+// Fundamentals of type Aliases
+
+type shankiya = number;
+
+let a:shankiya = 12; // here we are using type alias shankiya to define the type of a as number
+
+// best example of type alias is union types
+type value = string | number | boolean;
+let b : value; // iss ki help se jada complex types ko define kar sakte h
+
+// union types
+let c : string | number; // here we are defining a as a union type of string and number
+
+// intersection types
+type User1 = {
+  name: string,
+  age: number,
+}
+
+type Admin1 = User1 &{
+  getDetail(user:string):void;
+}
+
+function abdc(a:Admin1){
+  console.log(a.name);
+  console.log(a.age);
+  a.getDetail("dhruva");
+}
