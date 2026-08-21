@@ -121,3 +121,26 @@ function abdc(a:Admin1){
   console.log(a.age);
   a.getDetail("dhruva");
 }
+
+
+// Class and  Object 
+// class definition
+// Constructors
+// Access Modifiers (public , private , protected) 
+// Readonly properties  
+// Optional properties
+// Parameter properties
+// Getter and Setter methods
+// static methods
+// abstract classes and methods
+ 
+class Bottle{
+  constructor(public name:string , public price:number)
+  {
+    this.name = name;
+    this.price = price;
+  }
+}
+
+let b1 = new Bottle("Milton" , 1200); // here we are creating an object of class Bottle and passing the parameters to the constructor
+let b2 = new Bottle("Coca Cola" , 50);
